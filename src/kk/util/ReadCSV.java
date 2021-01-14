@@ -15,12 +15,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-server IP:port number 
-parent form name having the attachment field
-request id of the form name having the attachment field
-attachment field db id
-child form name where you need the record
-field id of the child form name, where the child form should be inserted
+Input to be passed to the List from a Remedy Filter in Developer Studio
+
+Parameter 1 : server IP:port number 
+Parameter 2 : parent form name having the attachment field
+Parameter 3 : request id of the form name having the attachment field
+Parameter 4 : attachment field db id
+Parameter 5 : child form name where you need the record
+Parameter 6 : field id of the child form name, where the child form should be inserted
 
 */
 
